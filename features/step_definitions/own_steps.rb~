@@ -137,7 +137,7 @@ end
 
 When /^I open the notification message from (.*) to read the chat message in the second device$/ do |device1|
 $device=2
-system 'monkeyrunner Notification.py "$CHAT_CONTACT_FOR_DEVICE1" $ADB_DEVICE_ARG2'
+system 'monkeyrunner Notification.py "$device1" $ADB_DEVICE_ARG2'
 end
 
 Then /^I should see the message '(.*)' in the second device$/ do |message2|

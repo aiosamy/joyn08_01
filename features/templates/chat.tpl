@@ -20,7 +20,7 @@ Then I take a screenshot in the second device
 Then I should see the message delivery status in the first device as Successful
 Then I take a screenshot in the first device
 
-When I open the notification message to read the chat message in the second device
+When I open the notification message from '<CHAT_CONTACT_FOR_DEVICE1>' to read the chat message in the second device
 Then I should see the message 'first joyn chat message' in the second device
 Then I send 'first joyn chat message ack' as a response in the second device
 Then I take a screenshot in the second device
